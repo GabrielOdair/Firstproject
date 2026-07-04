@@ -111,6 +111,34 @@ body{
     margin-top:40px;
 
 }
+.btn-primary{
+
+    padding:16px 35px;
+
+    background:#00ff88;
+
+    color:#111;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.4s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+    0 0 10px #00ff88,
+    0 0 25px #00ff88,
+    0 0 60px #00ff88;
+
+}
 /* BACKGROUND EFFECT */
 
 .blur{

@@ -714,3 +714,44 @@ nav a:hover::after{
     color:#bdbdbd;
 
 }
+.social-icons{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+margin-top:40px;
+
+flex-wrap:wrap;
+
+}
+
+.social-icons a{
+
+width:75px;
+
+height:75px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+border-radius:50%;
+
+background:#202020;
+
+color:white;
+
+font-size:30px;
+
+text-decoration:none;
+
+transition:.4s;
+
+border:1px solid rgba(255,255,255,.05);
+
+}

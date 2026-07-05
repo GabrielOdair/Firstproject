@@ -791,3 +791,16 @@ box-shadow:
 border-color:#00ff88;
 
 }
+.skill{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+padding:14px 24px;
+
+font-weight:600;
+
+}

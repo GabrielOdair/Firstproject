@@ -302,6 +302,15 @@ header{
     color:#00ff88;
 
 }
+.menu{
+
+    display:flex;
+
+    gap:35px;
+
+    list-style:none;
+
+}
 
 /* ALERT */
 

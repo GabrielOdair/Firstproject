@@ -357,6 +357,23 @@ header{
     width:100%;
 
 }
+.contact-btn{
+
+    padding:13px 28px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    color:#111;
+
+    background:#00ff88;
+
+    font-weight:bold;
+
+    transition:.4s;
+
+}
 
 /* ALERT */
 

@@ -324,6 +324,39 @@ header{
     transition:.4s;
 
 }
+.menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0%;
+
+    height:2px;
+
+    border-radius:20px;
+
+    background:#00ff88;
+
+    transition:.4s;
+
+}
+
+.menu a:hover{
+
+    color:#00ff88;
+
+}
+
+.menu a:hover::after{
+
+    width:100%;
+
+}
 
 /* ALERT */
 

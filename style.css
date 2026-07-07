@@ -374,6 +374,19 @@ header{
     transition:.4s;
 
 }
+.contact-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+
+        0 0 10px #00ff88,
+
+        0 0 30px #00ff88,
+
+        0 0 60px rgba(0,255,136,.6);
+
+}
 
 /* ALERT */
 

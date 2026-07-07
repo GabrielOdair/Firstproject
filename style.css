@@ -164,7 +164,17 @@ body {
     box-shadow: 0 0 30px #00ff88;
 
 }
+@media (max-width:900px){
 
+.photo{
+
+    width:250px;
+
+    height:250px;
+
+}
+
+}
 .photo {
 
     width: 380px;
@@ -958,5 +968,26 @@ footer {
     padding: 14px 24px;
 
     font-weight: 600;
+
+}
+@media(max-width:900px){
+
+.hero h1{
+
+    font-size:42px;
+
+}
+
+.hero h2{
+
+    font-size:24px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+}
 
 }

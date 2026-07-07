@@ -311,6 +311,19 @@ header{
     list-style:none;
 
 }
+.menu a{
+
+    position:relative;
+
+    text-decoration:none;
+
+    color:#d5d5d5;
+
+    font-weight:500;
+
+    transition:.4s;
+
+}
 
 /* ALERT */
 

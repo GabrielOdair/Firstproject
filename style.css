@@ -991,3 +991,24 @@ footer {
 }
 
 }
+@media(max-width:900px){
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.btn-primary,
+
+.btn-secondary{
+
+width:220px;
+
+text-align:center;
+
+}
+
+}

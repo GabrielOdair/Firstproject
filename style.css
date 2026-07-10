@@ -960,3 +960,170 @@ footer {
     font-weight: 600;
 
 }
+/*==========================
+RESPONSIVIDADE
+===========================*/
+
+@media (max-width:900px){
+
+    /* HEADER */
+
+    header{
+
+        top:10px;
+
+    }
+
+    .navbar{
+
+        width:95%;
+
+        flex-direction:column;
+
+        gap:20px;
+
+        padding:20px;
+
+    }
+
+    .menu{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:18px;
+
+    }
+
+    /* HERO */
+
+    .hero{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+        gap:40px;
+
+        padding:40px 20px;
+
+    }
+
+    .hero-left{
+
+        width:100%;
+
+    }
+
+    .hero-right{
+
+        width:100%;
+
+        display:flex;
+
+        justify-content:center;
+
+    }
+
+    .hero h1{
+
+        font-size:42px;
+
+    }
+
+    .hero h2{
+
+        font-size:24px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .photo{
+
+        width:250px;
+
+        height:250px;
+
+    }
+
+    /* BOTÕES */
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .btn-primary,
+
+    .btn-secondary{
+
+        width:220px;
+
+        text-align:center;
+
+    }
+
+    /* NÚMEROS */
+
+    .numbers{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+        gap:25px;
+
+    }
+
+    /* CARDS */
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* SKILLS */
+
+    .skills{
+
+        justify-content:center;
+
+    }
+
+    .skill{
+
+        width:170px;
+
+        justify-content:center;
+
+    }
+
+    /* REDES */
+
+    .social-icons{
+
+        gap:18px;
+
+    }
+
+    .social-icons a{
+
+        width:60px;
+
+        height:60px;
+
+        font-size:24px;
+
+    }
+
+}

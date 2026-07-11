@@ -969,6 +969,28 @@ footer {
     gap:40px;
 
 }
+.project-card{
+
+    background:#222;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    border:1px solid rgba(255,255,255,.05);
+
+}
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+
+        0 15px 40px rgba(0,255,136,.15);
+
+}
 /*==========================
 RESPONSIVIDADE
 ===========================*/

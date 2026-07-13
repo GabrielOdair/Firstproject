@@ -1070,6 +1070,16 @@ footer {
 
         0 0 30px #00ff88;
 
+}.navbar.scroll{
+
+background:#121212;
+
+box-shadow:
+
+0 15px 40px rgba(0,0,0,.45);
+
+border:1px solid rgba(0,255,136,.15);
+
 }
     color:#111;
 

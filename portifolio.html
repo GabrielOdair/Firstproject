@@ -345,7 +345,75 @@
         © 2026 - Gabriel Odair
 
     </footer>
-<script src="script.js"></script>
+<script src="script.js">
+    const profissao = [
+
+"Desenvolvedor Front-end",
+
+"Estudante de JavaScript",
+
+"Futuro Desenvolvedor React",
+
+"Criando Projetos Modernos"
+
+];
+
+let texto = 0;
+
+let letra = 0;
+
+function escrever(){
+
+    if(letra < profissao[texto].length){
+
+        document.getElementById("typing").innerHTML += profissao[texto].charAt(letra);
+
+        letra++;
+
+        setTimeout(escrever,80);
+
+    }
+
+    else{
+
+        setTimeout(apagar,1800);
+
+    }
+
+}
+
+function apagar(){
+
+    if(letra>0){
+
+        document.getElementById("typing").innerHTML=
+
+        profissao[texto].substring(0,letra-1);
+
+        letra--;
+
+        setTimeout(apagar,40);
+
+    }
+
+    else{
+
+        texto++;
+
+        if(texto>=profissao.length){
+
+            texto=0;
+
+        }
+
+        setTimeout(escrever,400);
+
+    }
+
+}
+
+escrever();
+</script>
 
 
 </body>
